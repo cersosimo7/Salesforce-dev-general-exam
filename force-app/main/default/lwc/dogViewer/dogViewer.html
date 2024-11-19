@@ -1,0 +1,37 @@
+<template>
+    <div class="slds-card slds-p-around_large">
+        <c-dog-select-form></c-dog-select-form>
+        <lightning-tabset>
+            <lightning-tab label="Dogs!">
+                <div class="dogs">
+                    <!-- render these dynamically -->
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/doberman.jpg" breed="Doberman">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/n02107142_10009.jpg" breed="Doberman">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/n02107142_10036.jpg" breed="Doberman">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/n02107142_10070.jpg" breed="Doberman">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/n02107142_10647.jpg" breed="Doberman">
+                    </c-dog-card>
+                </div>
+            </lightning-tab>
+            <lightning-tab label="Favorites">
+                <div class="dogs">
+                    <!-- render these dynamically -->
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/doberman/doberman.jpg" breed="Doberman">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/spaniel-brittany/n02101388_10290.jpg"
+                        breed="Brittany Spaniel"></c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/schnauzer-giant/n02097130_243.jpg"
+                        breed="Giant Schnauzer"></c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/pyrenees/n02111500_5057.jpg" breed="Pyrenees">
+                    </c-dog-card>
+                    <c-dog-card img-path="https://images.dog.ceo/breeds/chihuahua/n02085620_3208.jpg" breed="Chihuahua">
+                    </c-dog-card>
+                </div>
+            </lightning-tab>
+        </lightning-tabset>
+    </div>
+</template>
