@@ -11,6 +11,7 @@ This challenge focuses on 3 parts:
 1. Sign up for a new [Dev hub org](https://developer.salesforce.com/promotions/orgs/dx-signup)
 2. Create a default scratch org to do your work in
 3. Clone this repository
+4. Check the "Issues" tab
 
 ## The API
 Dog API is a third-party API that your application will consume. It is free for development purposes, so there is no sign up or OAuth required. Documentation can be found here: https://dog.ceo/dog-api/documentation/.
